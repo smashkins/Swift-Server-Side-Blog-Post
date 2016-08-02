@@ -16,7 +16,7 @@ Da questo confuso e complicato ambiente, fatto da oceani di righe di codice, vul
 
 <img src="stack.png" /> 
 
-Ma quali caratteristiche darwiniane ha portato con se *Swift* e che secondo le ultime statistiche di stackoverflow (noto sito per tecnici del settore di Q&A) è sempre più prediletto tra le scelte degli sviluppatori di tutto il mondo?[[1]](http://stackoverflow.com/research/developer-survey-2016#technology-most-loved-dreaded-and-wanted)
+Ma quali caratteristiche darwiniane ha portato con se *Swift* e che secondo le ultime statistiche di stackoverflow (noto sito per tecnici del settore di Q&A) è sempre più prediletto tra le scelte degli sviluppatori di tutto il mondo [[1]](http://stackoverflow.com/research/developer-survey-2016#technology-most-loved-dreaded-and-wanted)
 
 ##Less code
 <center><img src="http://www.walthampton.com/wp-content/uploads/2014/05/why_less_is_more.png" width="300" /></center>
