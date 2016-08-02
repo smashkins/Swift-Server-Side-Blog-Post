@@ -112,6 +112,14 @@ Esistono attualmente decine di framework server-side Swift più o meno seguiti e
 Sviluppato da IBM il quale sta investendo molte risorse su Swift per renderlo il prossimo grande linguaggio enterprise dopo Java. [Kitura]() è stato presentato [nell'ultimo WWDC16](https://developer.apple.com/videos/play/wwdc2016/415/)
 
 #Zewo
-Tutti insieme hanno al loro attivo oltre 15.000 stars su github. Se lo paragoniamo ad esempio a Rails, un framework web molto più consolidato, che ha all'attivo 31.000 stars capiamo subito che le preferenze verso questa soluzione stanno crescendo rapidamente considerando anche il fatto che di Swift Server-Side si è iniziato a parlarne soltanto da un anno. 
+
+!!Da completare!!
+
+
+Tutti insieme hanno al loro attivo oltre 15.000 stars su github. Se lo paragoniamo ad esempio a Rails, un framework web molto più consolidato, che ha all'attivo 31.000 stars capiamo subito che le preferenze verso questa soluzione stanno crescendo rapidamente considerando anche il fatto che di Swift Server-Side si è iniziato a parlarne soltanto da un anno.
+
+#Development su Mac Deploy su Linux
+
+#Development su Linux Deploy su Linux 
 
 #Hello World in Vapor
