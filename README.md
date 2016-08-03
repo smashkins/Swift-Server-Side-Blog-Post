@@ -117,21 +117,49 @@ Esistono attualmente decine di framework server-side Swift più o meno seguiti e
 #Perfect
 <center><img src="https://realm.io/assets/img/news/perfect-swift-server-framework1.png" width="800" /></center>
 
+**PERFECT** è stato il primo a posizionarsi sulla scena dei framework swift lato server. E' stato progettato da Kyle Jessup il creatore del linguaggio di programmazione [Lasso](https://en.wikipedia.org/wiki/Lasso_(programming_language)) e si può dire che è stato costruito da qualcuno con una profonda conoscenza del backend web. Il Team di Perfect ha raccolto 1,2M di $ in finanziamenti con l'intento di far crescere e migliorare sempre di più il framework
+
 
 #Vapor
- (che si ispira al framework php Laravel)
+
+<center><img src="vapor.png" width="400" /></center>
+
+Tra i framework più popolari su github, [**VAPOR**](http://qutheory.io) è il mio preferito ed è un ottimo starting point per chiunque si stia affaciando allo swift server side.
+
+Vapor è costruito su Swift 3, ha una buona documentazione e si ispira al noto framework php Laravel (c'è addirittura un alter-ego di artisan tool che è il vapor tool). Al momento al progetto lavorano in full-time due sviluppatori del team di **Qutheory** (startup di New Jork di cui Tenner Nelson è uno dei fondatori) oltre ai numerosi contributors di github.
+Lo stesso sito che ne descrive le caratteristiche gira su vapor server framework
+
+ 
 #Kitura
 <center><img src="https://img.readitlater.com/i/stormpath.com/wp-content/uploads/2016/06/KituraLogo-300x175/RS/w704.png?&ssl=1" width="300" /></center>
 
 
-Sviluppato da IBM il quale sta investendo molte risorse su Swift per renderlo il prossimo grande linguaggio enterprise dopo Java. [Kitura]() è stato presentato [nell'ultimo WWDC16](https://developer.apple.com/videos/play/wwdc2016/415/)
+Il terzo in questa lista è [**KITURA**](http://www.ibm.com/cloud-computing/bluemix/swift/it-it/) di IBM. 
+
+IBM sta investendo molte risorse nel rendere Swift il prossimo linguaggio enterprise dopo Java e Kitura è parte di questo sforzo. È stato presentato [nell'ultimo WWDC16](https://developer.apple.com/videos/play/wwdc2016/415/) ed alcuni sviluppatori del team di **KITURA** provengono dal team che mantiene Express.js per cui se si ha familiarità con Express, KITURA risulterà abbastanza familiare.
+
+IBM ha costruito un intero ecosistema attorno al suo framework agganciando alcuni dei suoi servizi cloud enterprise preesistenti (come Watson o BlueMix) a questo framework. Di default i tool di installazione di Kitura andranno deployare sul cloud di IBM ma è possibile l'installazione anche su macchine Ubuntu server, macOS, Docker e Vagrant
+
 
 #Zewo
+<center><img src="zewo.png" width="300" /></center>
 
-!!Da completare!!
+
+L'ultimo framework della lista di cui voglio parlare è [**ZEWO**]("http://www.zewo.io")
+
+Ciò che è interessante di *ZEWO* è la sua architettura. E' un framework con una natura modulare ed attualmente è composto da più di 50 packages! 
+
+La seconda cosa interessante è che i moduli di base sono attualmente intercambiabili con Vapor. Infatti Vapor e Zewo stanno collaborando insieme per portare avanti un progetto parallelo chiamato [**OPEN SWIFT**](https://github.com/open-swift) con l'intento di standardizzare le interfacce che possono essere utilizzate da chiunque voglia usare swift server-side per mettere su i componenti server: middleware, request, response ed altri oggetti. Con *Open Swift* chiunque può costruire middleware o altri plugins per gli Swift servers ed usarli sia in Vapor che in Zewo o con chi in futuro voglia adottare il progetto *Open Swift* 
 
 
-Tutti insieme hanno al loro attivo oltre 15.000 stars su github. Se lo paragoniamo ad esempio a Rails, un framework web molto più consolidato, che ha all'attivo 31.000 stars capiamo subito che le preferenze verso questa soluzione stanno crescendo rapidamente considerando anche il fatto che di Swift Server-Side si è iniziato a parlarne soltanto da un anno.
+Il codice di Zewo è molto simile a Vapor o Kitura ma risulta un pò più verbose a causa della sua intenzionale modularità.
+
+#Keep calm and...Code on!
+
+<center><img src="http://i.imgur.com/oZjxf.gif" width="300" /></center>
+
+
+Dopo questa carrellata vediamo, in pratica, quanto è rapido, semplice ed immediato sviluppare la nostra prima semplicissima API in swift server.
 
 #Development su Mac Deploy su Linux
 
