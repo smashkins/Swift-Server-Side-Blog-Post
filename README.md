@@ -117,7 +117,7 @@ Esistono attualmente decine di framework server-side Swift più o meno seguiti e
 #Perfect
 <center><img src="https://realm.io/assets/img/news/perfect-swift-server-framework1.png" width="800" /></center>
 
-**PERFECT** è stato il primo a posizionarsi sulla scena dei framework swift lato server. E' stato progettato da Kyle Jessup il creatore del linguaggio di programmazione [Lasso](https://en.wikipedia.org/wiki/Lasso_(programming_language)) e si può dire che è stato costruito da qualcuno con una profonda conoscenza del backend web. Il Team di Perfect ha raccolto 1,2M di $ in finanziamenti con l'intento di far crescere e migliorare sempre di più il framework
+**PERFECT** è stato il primo a posizionarsi sulla scena dei framework swift lato server. E' stato progettato da Kyle Jessup il creatore del linguaggio di programmazione [Lasso](https://en.wikipedia.org/wiki/Lasso_(programming_language)) e si può dire che è stato costruito da qualcuno con una profonda conoscenza del backend web. Il Team di Perfect ha raccolto 1,2M$ in finanziamenti con l'intento di far crescere e migliorare sempre di più il framework
 
 
 #Vapor
@@ -161,8 +161,74 @@ Il codice di Zewo è molto simile a Vapor o Kitura ma risulta un pò più verbos
 
 Dopo questa carrellata vediamo, in pratica, quanto è rapido, semplice ed immediato sviluppare la nostra prima semplicissima API in swift server.
 
-#Development su Mac Deploy su Linux
+#Development e Deployment su Ubuntu
 
-#Development su Linux Deploy su Linux 
+##Installazione
+
+Per prima cosa iniziamo con l'installare alcune delle dipendenze che poi serviranno a swift per compilare il nostro framework.
+
+
+		sudo apt-get update
+		sudo apt-get install clang libicu-dev binutils git
+
+
+Per utilizzare Vapor avremo poi bisogno inizialmente di installare Swift 3 (circa 100MB).
+In questa prima fase in cui swift 3 si trova ancora in fase beta sarà utile installare nella macchina un tool che consente agevolmente di passare da una versione swift-SNAPSHOT all'altra. Si tratta di **Swift Version Manager**.
+
+
+		git clone https://github.com/kylef/swiftenv.git ~/.swiftenv
+
+Con questo comando cloniamo il repository di swiftenv nella directory *~/.swiftenv*
+
+Poi se utilizziamo bash diamo:
+
+
+		echo 'export SWIFTENV_ROOT="$HOME/.swiftenv"' >> ~/.bashrc
+
+		echo 'export PATH="$SWIFTENV_ROOT/bin:$PATH"' >> ~/.bashrc
+
+		echo 'eval "$(swiftenv init -)"' >> ~/.bashrc
+
+
+**NOTA:** *In alcune piattaforme dovremmo modificare ~/.bashrc con ~/.bash_profile*
+
+*Per altre Shell consultare il [repository del progetto](https://github.com/kylef/swiftenv)
+
+A questo punto abbiamo sulla nostra macchina un utile tool per gestire le varie versioni di swift in maniera semplice e veloce.
+Al momento della stesura di questo articolo la documentazione ufficiale per vapor 0.15 non è ancora disponibile. La versione di swift supportata dalla 0.15 è la DEVELOPMENT-SNAPSHOT-2016-07-25-a
+
+Quindi scrivere in console:
+
+		swiftenv install  DEVELOPMENT-SNAPSHOT-2016-07-25-a
+		
+In questo modo swiftenv ha installato nel sistema lo SNAPSHOT-2016-07-25-a di swift
+
+**NOTA:** Tramite swiftenv possiamo installare, disinstallare, settare globalmente o per progetto le varie versioni di swift. Per capire come fare basta scrivere in console
+
+		swiftenv --help
+
+Per verificare quindi la versione di swift è stata installata nel sistema possiamo scrivere:
+
+	swift --version
+	
+	# Swift version 3.0-dev (LLVM a556865305, Clang 24a293d372, Swift f8f6d61d19)
+	
+Adesso possiamo installare il **tool vapor**, l'alter-ego di *artisan* di Laravel
+
+	curl -sL toolbox.qutheory.io | bash
+	
+	
+Per verificare l'avvenuta installazione scriviamo:
+
+	vapor --help
+	
+###Aggiornamento
+Sarà possibile aggiornare il tool vapor a successive versioni scrivendo semplicemente
+
+	vapor self update
+
 
 #Hello World in Vapor
+
+
+
