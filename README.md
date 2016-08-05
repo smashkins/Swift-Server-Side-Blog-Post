@@ -62,7 +62,7 @@ Al processo di evoluzione della nuova versione Swift 3 hanno partecipato centina
 <center><img src="github1.png" width="800" /></center>
 <center><img src="github2.png" width="800" /></center>
 
-Centinaia di contributi, come spiega Chris Lattner Senior Director del Developer Tools Department di Apple [[3]](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20160725/025676.html) in uno degli ultimi messaggi in mailing list in occasione del giro di boa di swift 3 verso swift 4, significano però anche un alto rischio di perdere per strada alcuni obiettivi, ma grazie al fatto che dietro al processo apparentemente caotico dei processi opensource ci sia sempre l'occhio vigile di una grande azienda come la Apple che suggerisce alcuni dei path principali da perseguire rispetto ad altri, questo processo si traduce in concretezza oltre che essere un ottimo esempio di come l'opensource può coesistere con il closed source (ricordiamo che i vari framework di Apple che sono il cuore dei dispositivi mobile come CocoaTouch, SceneKit etc rimangono e rimarranno pur sempre closed source).
+Centinaia di contributi, come spiega Chris Lattner Senior Director del Developer Tools Department di Apple [[3]](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20160725/025676.html) in uno degli ultimi messaggi in mailing list in occasione del giro di boa di swift 3 verso swift 4, significano però anche un alto rischio di perdere per strada alcuni obiettivi, ma grazie al fatto che dietro al processo apparentemente caotico dei processi opensource ci sia sempre l'occhio vigile di una grande azienda come la Apple che suggerisce alcuni dei path principali da perseguire rispetto ad altri, questo processo si traduce in concretezza oltre che essere un ottimo esempio di come l'opensource può coesistere con il closed source (ricordiamo che i vari framework di Apple rimangono e rimarranno pur sempre closed source ma la comunità open sta via via sviluppando librerie per lo swift server-side).
 
 #Nuovi Percorsi
 Dal momento in cui Swift è stato rilasciato open source e cross-platform, molti team si sono sbizzarriti per rendere Swift non solo un linguaggio di programmazione orientato allo sviluppo in ambiente Apple ma anche un vero e proprio linguaggio Full Stack da utilizzare anche in altri ambiti non legati direttamente ad ambiente Apple. 
@@ -74,7 +74,7 @@ Esempi sempre più numerosi si stanno affacciando nel panorama in ambito web. St
 ######*Photo credit: via [meme generator](http://es.memegenerator.net/instance/53434671)*
 
 Esistono già linguaggi creati specificamente per far questo. Pensiamo a Ruby, Go, Php etc.. abbiamo anche già a disposizione numerosi linguaggi cross-platform, pensiamo a Python, C#, Java. Perchè Swift dovrebbe essere *"migliore"* di questi linguaggi che hanno già una maturità e una base di installazioni ragguardevoli?
-Beh, perchè semplicemente qui non si vuole sottolineare un discorso di un *"linguaggio migliore"* rispetto a qualche altro. Non esiste un linguaggio migliore in assoluto. Ogni linguaggio ha le sue specificità, ed è stato progettato per un certo compito. Qui si vuole sottolineare il fatto che un linguaggio come swift, nato con un certo scopo, grazie a certe sue caratteristiche peculiari, sta pian piano uscendo dal suo guscio per cui è stato creato e si sta posizionando in ottime posizioni in certi campi di applicazione. Per quale motivo?
+Beh, perchè semplicemente qui non si vuole sottolineare un discorso di un *"linguaggio migliore"* rispetto a qualche altro. Come sappiamo non esiste un linguaggio migliore in assoluto. Ogni linguaggio ha le sue specificità, ed è stato progettato per un certo compito. Una delle utilità rispetto agli altri linguaggi è per lo sviluppatore iOS che va via via trasformandosi da uno sviluppatore mobile ad uno sviluppatore full-stack. Chi sviluppava applicazioni iOS non dovrà più switchare da un linguaggio all'altro. D'altro campo questa espansione di swift è utile anche per gli sviluppatori web che adesso hanno la possibilità di imparare ed utilizzare un linguaggio che va trasformandosi in un linguaggio full-stack  Qui si vuole sottolineare il fatto che un linguaggio come swift, nato con un certo scopo, grazie a certe sue caratteristiche peculiari, sta pian piano uscendo dal suo guscio per cui è stato creato e si sta attestando in ottime posizioni in certi campi di applicazione. Per quale motivo?
 
 ##Compromesso
 Se comparato ad altri linguaggi, Swift è stato progettato sin dall'inizio per essere un giusto compromesso tra Produttività e Performance.
@@ -197,7 +197,7 @@ Poi se utilizziamo bash diamo:
 *Per altre Shell consultare il [repository del progetto](https://github.com/kylef/swiftenv)
 
 A questo punto abbiamo sulla nostra macchina un utile tool per gestire le varie versioni di swift in maniera semplice e veloce.
-Al momento della stesura di questo articolo la documentazione ufficiale per vapor 0.15 non è ancora disponibile. La versione di swift supportata dalla 0.15 è la DEVELOPMENT-SNAPSHOT-2016-07-25-a
+Al momento della stesura di questo articolo la documentazione ufficiale per vapor 0.15 non è ancora disponibile sul sito ufficiale. La versione di swift supportata dalla 0.15 è la DEVELOPMENT-SNAPSHOT-2016-07-25-a come si evince dal [repository di github](https://github.com/vapor/vapor) del progetto
 
 Quindi scrivere in console:
 
@@ -256,28 +256,30 @@ Posizioniamoci dove vogliamo creare il nostro HelloWorld e scriviamo:
 
 		vapor new HelloWorld
 		
-Il tool scaricherà così un template di default di esempio già pronto e funzionante.
+Il tool scaricherà così un template di default già pronto e funzionante.
 Su mac per aprire il progetto con xcode basterà entrare nella root del progetto e scrivere:
 
 		vapor xcode
 		
-e selezionare in xcode il toolchain utilizzato
+Vapor scaricherà le dipendenze necessarie, creerà il file di progetto per xcode e chiderà di aprire xcode. Una volta aperto se non lo è già bisognerà selezionare in xcode il toolchain utilizzato
 
 ![](https://files.readme.io/p0CHMCorQI6yLqv25JPh_Screen%20Shot%202016-07-11%20at%203.21.51%20PM.png)
 
-Basterà poi, se già non siamo dentro, entrare nella root del progetto e scrivere
+Basterà poi, sempre dalla root del progetto scrivere
 
 		vapor build
 		
-E lanciare il server con
+Per compilare il progetto e lanciare il server con
 
 		vapor run serve
 		
-Il server girerà di default in localhost sulla porta 8080. Ovviamente abbiamo la possibilità di configurare il tutto andando su Config/servers.json
-Aprendo il file App/main.swift con xcode o con un editor di testo troveremo lì il codice di esempio della nostra app. Ogni riga è commentata e di facile comprensione.
-Tutto qui!!! 😄
+Il server girerà di default in localhost sulla porta 8080. Ovviamente abbiamo la possibilità di configurare sia la porta che altre configurazioni del server andando su Config/servers.json
 
- Ovviamente ci sarebbe molto altro da dire ma rimandiamo il tutto ad un ulteriore approfondimento e ad altri futuri aggiornamenti di questo articolo 👍
+Aprendo invece il file App/main.swift con xcode o con un editor di testo troveremo lì il codice di esempio della nostra app di default. Ogni riga è commentata e di facile comprensione.
+
+Per il primo Hello World è tutto qui!!! 😄
+
+ Ovviamente ci sarebbe molto altro da dire, come il significato e l'organizzazione delle varie cartelle (che ricordano quelle di un progetto Laravel), come costruire i nostri Model o agganciare un db mysql o mongoDB.. ma rimandiamo il tutto ad un ulteriore approfondimento e ad altri futuri aggiornamenti di questo articolo 👍
  
  
  
