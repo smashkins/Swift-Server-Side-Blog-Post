@@ -271,7 +271,7 @@ Basterà poi, se già non siamo dentro, entrare nella root del progetto e scrive
 		
 E lanciare il server con
 
-		varpo run serve
+		vapor run serve
 		
 Il server girerà di default in localhost sulla porta 8080. Ovviamente abbiamo la possibilità di configurare il tutto andando su Config/servers.json
 Aprendo il file App/main.swift con xcode o con un editor di testo troveremo lì il codice di esempio della nostra app. Ogni riga è commentata e di facile comprensione.
