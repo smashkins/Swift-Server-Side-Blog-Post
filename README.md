@@ -160,6 +160,8 @@ Il codice di Zewo è molto simile a Vapor o Kitura ma risulta un pò più verbos
 
 
 Dopo questa carrellata vediamo, in pratica, quanto è rapido, semplice ed immediato sviluppare la nostra prima semplicissima API in swift server.
+Potremmo utilizzare i più disparati workflow per lo sviluppo delle nostre web app a seconda delle nostre preferenze: utilizzare vagrant o docker, sviluppare e fare il debug con xcode su mac o sviluppare su linux..la fase comune comunque sarà il deployment su macchine linux essendo la stragande maggioranza dei server basati su macchine Linux.
+ 
 
 #Development e Deployment su Ubuntu
 
@@ -226,9 +228,51 @@ Per verificare l'avvenuta installazione scriviamo:
 Sarà possibile aggiornare il tool vapor a successive versioni scrivendo semplicemente
 
 	vapor self update
+	
+	
+#Development su Mac
 
+Lo sviluppo su Mac ovviamente è molto più agevole e grazie a xcode avremo un IDE già perfettamente configurato con completamento automatico, evidenziazzione della sintassi e debug. Una volta compilato il progetto potremmo poi deployare su macchine Linux.
+
+Ovviamente abbiamo bisogno di xcode 8+ installato sul sistema.
+
+Selezioniamo xcode 8 nella command line
+
+		sudo xcode-select -s /Applications/Xcode-beta.app/
+		
+Controlliamo la versione di swift attiva con:
+
+		swift --version
+
+		# Apple Swift version 3.0 (swiftlang-800.0.33.1 clang-800.0.31)
+		
+Se la versione di swift attiva non dovesse combaciare con quella utilizzata dalla beta di vapor, utilizzero swiftenv per selezionare la versione di swift come spiegato in precedenza ed installiamo il *vapor tool* con la stessa procedura spiegato per Ubuntu.
+
+A questo punto avremo vapor correttamente installato nella nostra macchina. 
 
 #Hello World in Vapor
+
+Posizioniamoci dove vogliamo creare il nostro HelloWorld e scriviamo:
+
+		vapor new HelloWorld
+		
+Il tool scaricherà così un template di default di esempio già pronto e funzionante.
+Basterà entrare dentro la cartella del progetto, scrivere
+
+		vapor build
+		
+E lanciare il server con
+
+		varpo run serve
+		
+Il server girerà di default in localhost sulla porta 8080. Ovviamente abbiamo la possibilità di configurare il tutto andando su Config/servers.json
+Aprendo il file App/main.swift con xcode o con un editor di testo troveremo lì il codice di esempio della nostra app. Ogni riga è commentata e di facile comprensione.
+Tutto qui!!! 😄
+
+ Ovviamente ci sarebbe molto altro da dire ma rimandiamo il tutto ad un ulteriore approfondimento e ad altri futuri aggiornamenti di questo articolo 👍
+ 
+ 
+ 
 
 
 
