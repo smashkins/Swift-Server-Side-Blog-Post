@@ -248,7 +248,7 @@ Controlliamo la versione di swift attiva con:
 		
 Se la versione di swift attiva non dovesse combaciare con quella utilizzata dalla beta di vapor, utilizzero swiftenv per selezionare la versione di swift come spiegato in precedenza ed installiamo il *vapor tool* con la stessa procedura spiegato per Ubuntu.
 
-A questo punto avremo vapor correttamente installato nella nostra macchina. 
+A questo punto avremo vapor correttamente installato nella nostra macchina.
 
 #Hello World in Vapor
 
@@ -257,7 +257,15 @@ Posizioniamoci dove vogliamo creare il nostro HelloWorld e scriviamo:
 		vapor new HelloWorld
 		
 Il tool scaricherà così un template di default di esempio già pronto e funzionante.
-Basterà entrare dentro la cartella del progetto, scrivere
+Su mac per aprire il progetto con xcode basterà entrare nella root del progetto e scrivere:
+
+		vapor xcode
+		
+e selezionare in xcode il toolchain utilizzato
+
+![](https://files.readme.io/p0CHMCorQI6yLqv25JPh_Screen%20Shot%202016-07-11%20at%203.21.51%20PM.png)
+
+Basterà poi, se già non siamo dentro, entrare nella root del progetto e scrivere
 
 		vapor build
 		
