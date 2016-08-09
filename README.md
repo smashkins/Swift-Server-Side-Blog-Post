@@ -5,9 +5,9 @@ Partiamo un attimo dall'inizio...
 <center><img src="https://i.ytimg.com/vi/MO7Ta0DvEWA/hqdefault.jpg" /></center>
 
 ##2014
- Apple presente durante la conferenza mondiale degli sviluppatori [wwdc2014](https://developer.apple.com/videos/play/wwdc2014/402/) un nuovo linguaggio di programmazione destinato a sostituire completamente con gli anni il precedente linguaggio (Objective C) utilizzato fino a quel momento per lo sviluppo di programmi all'interno del suo ecosistema (MacOS, iOS, TvOS, watchOS). Il nome scelto per il nuovo linguaggio è **SWIFT** (dall'inglese "rondine", "rapido").
+ Apple presenta durante la conferenza mondiale degli sviluppatori [wwdc2014](https://developer.apple.com/videos/play/wwdc2014/402/) un nuovo linguaggio di programmazione destinato a sostituire completamente con gli anni il precedente linguaggio (Objective C) utilizzato fino a quel momento per lo sviluppo di programmi all'interno del suo ecosistema (MacOS, iOS, TvOS, watchOS). Il nome scelto per il nuovo linguaggio è **SWIFT** (dall'inglese "rondine", "rapido").
 
-Per consentirne l'adozione rapida, *swift* è stato sin da subito concepito per essere utilizzato a fianco dei vecchi progetti scritti in  Objective C permettendo la coesistenza in uno stesso progetto sia di Objective C che di *Swift*. Ma questo non era l'unico vantaggio per cui Apple consigliò sin da subito l'uso di questo linguaggio.
+Per consentirne l'adozione rapida, *swift* viene sin da subito concepito per essere utilizzato a fianco dei vecchi progetti scritti in  Objective C permettendo la coesistenza in uno stesso progetto sia di Objective C che di *Swift*. Ma questo non è l'unico vantaggio per cui Apple consiglia sin da subito l'uso di questo linguaggio.
 
 ![](https://onionesquereality.files.wordpress.com/2014/01/40s1.jpg) 
 ######*Photo credit: Shubhendu Trivedi via [Onionesque Reality] (https://onionesquereality.wordpress.com/2014/01/29/the-evolution-of-programming-languages/)*
@@ -28,16 +28,16 @@ Ma quali caratteristiche darwiniane ha portato con se *Swift* e che secondo le u
 ######*Photo credit: via [quotesgram](http://www.walthampton.com/wp-content/uploads/2014/05/why_less_is_more.png)*
 
 
-Il codice con swift diventa pù conciso e con una sintassi più naturale per l'uomo che lo rende più facile da leggere e da manutenere. L'inferred type del compilatore rende il codice scritto dallo sviluppatore più pulito e meno soggetto agli errori. Less code significa anche eliminazione del semanticamente insignificante ; (punto e virgola) che per anni ha caratterizzato la natura dei codici compilati.
+Il codice con swift diventa più conciso e con una sintassi più naturale per l'uomo che lo rende più facile da leggere e da manutenere. L'inferred type del compilatore rende il codice scritto dallo sviluppatore più pulito e meno soggetto agli errori. Less code significa anche eliminazione del semanticamente insignificante ; (punto e virgola) che per anni ha caratterizzato la natura dei codici compilati.
 
-Tutto ciò e molto altro, senza scendere troppo nel particolare (si potrebbero citare i Generics, le tuple etc), rende swift un linguaggio facile e divertente da usare per lo sviluppatore che può, a seconda delle esigenze, utilizzare paradigmi classici di programmazione come l'imperative programming o quelli un pò più esotici e moderni come il functional programming.
+Tutto ciò e molto altro, senza scendere troppo nel particolare (si potrebbero citare i Generics, le tuple etc), rende swift un linguaggio facile e divertente da usare per lo sviluppatore che può, a seconda delle esigenze, utilizzare paradigmi classici di programmazione come l'imperative programming o quelli un pò più "esotici" come il functional programming.
 
 ##Progettato per la sicurezza
 <center><img src="https://cdn.meme.am/instances/29472476.jpg" width="300" /></center> 
 ######*Photo credit: via [meme generator](http://es.memegenerator.net/instance/29472476)*
 
 
-Swift elimina intere classi di codice non sicuro. Le variabili devono essere sempre inizializzate  e tipizzate prima dell'uso e di default gli oggetti non possono mai essere **nil** (il compilatore ne ferma la compilazione). Possono esserci però situazioni dove un valore **nil** è valido ed appropriato. Per queste situazioni, Swift introduce il concetto di Optional che forza lo sviluppatore ad inserire nella sintassi un "?" o un "!" per indicare al compilatore che si è a conoscenza del problema e si è in grado di gestirne le conseguenze in modo sicuro. Tutto ciò e molto altro rende più difficile tutta una pletora di problemi come i crash a runtime se lo sviluppatore segue i dettami del linguaggio.
+Swift elimina intere classi di codice non sicuro. Le variabili devono essere sempre inizializzate  e tipizzate prima dell'uso e di default gli oggetti non possono mai essere **nil** (il compilatore ne ferma la compilazione). Possono esserci però situazioni dove un valore **nil** è valido ed appropriato. Per queste situazioni, Swift introduce il concetto di *Optional* che forza lo sviluppatore ad inserire nella sintassi un "?" o un "!" per indicare al compilatore che si è a conoscenza del problema e si è in grado di gestirne le conseguenze in modo sicuro. Tutto ciò e molto altro rende più difficile tutta una pletora di problemi come i crash a runtime se lo sviluppatore segue i dettami del linguaggio.
 
 ##Veloce
 
@@ -74,7 +74,7 @@ Esempi sempre più numerosi si stanno affacciando nel panorama in ambito web. St
 ######*Photo credit: via [meme generator](http://es.memegenerator.net/instance/53434671)*
 
 Esistono già linguaggi creati specificamente per far questo. Pensiamo a Ruby, Go, Php etc.. abbiamo anche già a disposizione numerosi linguaggi cross-platform, pensiamo a Python, C#, Java. Perchè Swift dovrebbe essere *"migliore"* di questi linguaggi che hanno già una maturità e una base di installazioni ragguardevoli?
-Beh, perchè semplicemente qui non si vuole sottolineare un discorso di un *"linguaggio migliore"* rispetto a qualche altro. Come sappiamo non esiste un linguaggio migliore in assoluto. Ogni linguaggio ha le sue specificità, ed è stato progettato per un certo compito. Una delle utilità rispetto agli altri linguaggi è per lo sviluppatore iOS che va via via trasformandosi da uno sviluppatore mobile ad uno sviluppatore full-stack. Chi sviluppava applicazioni iOS non dovrà più switchare da un linguaggio all'altro. D'altro campo questa espansione di swift è utile anche per gli sviluppatori web che adesso hanno la possibilità di imparare ed utilizzare un linguaggio che va trasformandosi in un linguaggio full-stack  Qui si vuole sottolineare il fatto che un linguaggio come swift, nato con un certo scopo, grazie a certe sue caratteristiche peculiari, sta pian piano uscendo dal suo guscio per cui è stato creato e si sta attestando in ottime posizioni in certi campi di applicazione. Per quale motivo?
+Beh, perchè semplicemente qui non si vuole sottolineare un discorso di un *"linguaggio migliore"* rispetto a qualche altro. Come sappiamo non esiste un linguaggio migliore in assoluto. Ogni linguaggio ha le sue specificità, ed è stato progettato per un certo compito. Una delle utilità rispetto agli altri linguaggi è per lo sviluppatore iOS che va via via trasformandosi da uno sviluppatore mobile ad uno sviluppatore full-stack mono linguaggio. Chi sviluppava applicazioni iOS non dovrà più switchare da un linguaggio all'altro. D'altro campo questa espansione di swift è utile anche per gli sviluppatori web che adesso hanno la possibilità di imparare ed utilizzare un linguaggio che va trasformandosi in un linguaggio full-stack  Qui si vuole sottolineare il fatto che un linguaggio come swift, nato con un certo scopo, grazie a certe sue caratteristiche peculiari, sta pian piano uscendo dal suo guscio per cui è stato creato e si sta attestando in ottime posizioni in certi campi di applicazione. Per quale motivo?
 
 ##Compromesso
 Se comparato ad altri linguaggi, Swift è stato progettato sin dall'inizio per essere un giusto compromesso tra Produttività e Performance.
