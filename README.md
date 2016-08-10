@@ -30,7 +30,7 @@ Ma quali caratteristiche darwiniane ha portato con se *Swift* e che secondo le u
 
 Il codice con swift diventa più conciso e con una sintassi più naturale per l'uomo che lo rende più facile da leggere e da manutenere. L'inferred type del compilatore rende il codice scritto dallo sviluppatore più pulito e meno soggetto agli errori. Less code significa anche eliminazione del semanticamente insignificante ; (punto e virgola) che per anni ha caratterizzato la natura dei codici compilati.
 
-Tutto ciò e molto altro, senza scendere troppo nel particolare (si potrebbero citare i Generics, le tuple etc), rende swift un linguaggio facile e divertente da usare per lo sviluppatore che può, a seconda delle esigenze, utilizzare paradigmi classici di programmazione come l'imperative programming o quelli un pò più "esotici" come il functional programming.
+Tutto ciò e molto altro, senza scendere troppo nel particolare (si potrebbero citare i Generics, le tuple etc), rende Swift un linguaggio facile e divertente da usare per lo sviluppatore che può, a seconda delle esigenze, utilizzare paradigmi classici di programmazione come l'imperative programming o quelli un pò più "esotici" come il functional programming.
 
 ##Progettato per la sicurezza
 <center><img src="https://cdn.meme.am/instances/29472476.jpg" width="300" /></center> 
@@ -44,12 +44,12 @@ Swift elimina intere classi di codice non sicuro. Le variabili devono essere sem
 <center><img src="http://i.imgur.com/w8VNE8x.jpg" width="300"/></center>
 ######*Photo credit: notdrawntoscale via [imgur](http://imgur.com/gallery/w8VNE8x)*
 
-Sin dall'inizio Swift è stato progettato per essere "rapido" e veloce. Sfruttando il framework di compilazione LLVM di Apple ad alte prestazioni (che estende quello opensource rilasciato dall'università dell'Illinois nel 2000), il codice swift è trasformato in linguaggio macchina  ottimizzato per gli hardware più moderni
+Sin dall'inizio Swift è stato progettato per essere "rapido" e veloce. Sfruttando il framework di compilazione LLVM di Apple ad alte prestazioni (che estende quello opensource rilasciato dall'università dell'Illinois nel 2000), il codice Swift è trasformato in linguaggio macchina  ottimizzato per gli hardware più moderni
 
 ##Playground
 
 <center><img src="https://devimages.apple.com.edgekey.net/swift/blog/images/NewtonsCradle.png" width="500" /></center> 
-######*Photo credit: Apple via [Swift Blog](https://developer.apple.com/swift/blog/?id=35)
+######*Photo credit: Apple via [Swift Blog](https://developer.apple.com/swift/blog/?id=35)*
 
 Una delle novità assolute di questo linguaggio è la presenza di uno strumento chiamato Playground che permette agli sviluppatori di vedere istantaneamente il risultato del codice senza passare dal ciclo classico di compilazione. Infatti il codice scritto con Playground è tradotto in linguaggio macchina al volo e ciò permette un certo grado di interattività tra quello che si scrive e ciò che il codice effetivamente produce durante l'esecuzione. I Playgrounds possono essere creati sia all'interno di un progetto esistente sia come documenti Standalone,  permettendone quindi l'utilizzo sia in ambito professionale, sia per il testing del codice al volo e anche per motivi didattici.
 Le sue caratteristiche infatti, alcune delle quali elencate precedentemente come il less code o l'avvicinamento al linguaggio naturale lo rendono, meglio di altri linguaggi, ideale strumento di apprendimento alla programmazione.
@@ -62,7 +62,7 @@ Al processo di evoluzione della nuova versione Swift 3 hanno partecipato centina
 <center><img src="github1.png" width="800" /></center>
 <center><img src="github2.png" width="800" /></center>
 
-Centinaia di contributi, come spiega Chris Lattner Senior Director del Developer Tools Department di Apple [[3]](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20160725/025676.html) in uno degli ultimi messaggi in mailing list in occasione del giro di boa di swift 3 verso swift 4, significano però anche un alto rischio di perdere per strada alcuni obiettivi, ma grazie al fatto che dietro al processo apparentemente caotico dei processi opensource ci sia sempre l'occhio vigile di una grande azienda come la Apple che suggerisce alcuni dei path principali da perseguire rispetto ad altri, questo processo si traduce in concretezza oltre che essere un ottimo esempio di come l'opensource può coesistere con il closed source (ricordiamo che i vari framework di Apple rimangono e rimarranno pur sempre closed source ma la comunità open sta via via sviluppando librerie per lo swift server-side).
+Centinaia di contributi, come spiega Chris Lattner Senior Director del Developer Tools Department di Apple [[3]](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20160725/025676.html) in uno degli ultimi messaggi in mailing list in occasione del giro di boa di Swift 3 verso Swift 4, significano però anche un alto rischio di perdere per strada alcuni obiettivi, ma grazie al fatto che dietro al processo apparentemente caotico dei processi opensource ci sia sempre l'occhio vigile di una grande azienda come la Apple che suggerisce alcuni dei path principali da perseguire rispetto ad altri, questo processo si traduce in concretezza oltre che essere un ottimo esempio di come l'opensource può coesistere con il closed source (ricordiamo che i vari framework di Apple rimangono e rimarranno pur sempre closed source ma la comunità open sta via via sviluppando librerie per lo swift server-side).
 
 #Nuovi Percorsi
 Dal momento in cui Swift è stato rilasciato open source e cross-platform, molti team si sono sbizzarriti per rendere Swift non solo un linguaggio di programmazione orientato allo sviluppo in ambiente Apple ma anche un vero e proprio linguaggio Full Stack da utilizzare anche in altri ambiti non legati direttamente ad ambiente Apple. 
@@ -74,7 +74,7 @@ Esempi sempre più numerosi si stanno affacciando nel panorama in ambito web. St
 ######*Photo credit: via [meme generator](http://es.memegenerator.net/instance/53434671)*
 
 Esistono già linguaggi creati specificamente per far questo. Pensiamo a Ruby, Go, Php etc.. abbiamo anche già a disposizione numerosi linguaggi cross-platform, pensiamo a Python, C#, Java. Perchè Swift dovrebbe essere *"migliore"* di questi linguaggi che hanno già una maturità e una base di installazioni ragguardevoli?
-Beh, perchè semplicemente qui non si vuole sottolineare un discorso di un *"linguaggio migliore"* rispetto a qualche altro. Come sappiamo non esiste un linguaggio migliore in assoluto. Ogni linguaggio ha le sue specificità, ed è stato progettato per un certo compito. Una delle utilità rispetto agli altri linguaggi è per lo sviluppatore iOS che va via via trasformandosi da uno sviluppatore mobile ad uno sviluppatore full-stack mono linguaggio. Chi sviluppava applicazioni iOS non dovrà più switchare da un linguaggio all'altro. D'altro campo questa espansione di swift è utile anche per gli sviluppatori web che adesso hanno la possibilità di imparare ed utilizzare un linguaggio che va trasformandosi in un linguaggio full-stack  Qui si vuole sottolineare il fatto che un linguaggio come swift, nato con un certo scopo, grazie a certe sue caratteristiche peculiari, sta pian piano uscendo dal suo guscio per cui è stato creato e si sta attestando in ottime posizioni in certi campi di applicazione. Per quale motivo?
+Beh, perchè semplicemente qui non si vuole sottolineare un discorso di un *"linguaggio migliore"* rispetto a qualche altro. Come sappiamo non esiste un linguaggio migliore in assoluto. Ogni linguaggio ha le sue specificità, ed è stato progettato per un certo compito. Una delle utilità rispetto agli altri linguaggi è per lo sviluppatore iOS che va via via trasformandosi da uno sviluppatore mobile ad uno sviluppatore full-stack mono linguaggio. Chi sviluppava applicazioni iOS non dovrà più switchare da un linguaggio all'altro. D'altro campo questa espansione di swift è utile anche per gli sviluppatori web che adesso hanno la possibilità di imparare ed utilizzare un linguaggio che va trasformandosi in un linguaggio full-stack. Qui si vuole sottolineare il fatto che un linguaggio come Swift, nato con un certo scopo, grazie a certe sue caratteristiche peculiari, sta pian piano uscendo dal suo guscio per cui è stato creato e si sta attestando in ottime posizioni in certi campi di applicazione. Per quale motivo?
 
 ##Compromesso
 Se comparato ad altri linguaggi, Swift è stato progettato sin dall'inizio per essere un giusto compromesso tra Produttività e Performance.
@@ -90,7 +90,7 @@ Uno dei più semplici benchmark fa uso dell'Apache HTTP server benchmarking tool
 
 <img src="nodejs.png" width="800" />
 
-######*Photo Credit: Clay Smith via [SpeekerDeck] (https://speakerdeck.com/smithclay/server-side-swift-with-docker-and-kubernetes) 
+######*Photo Credit: Clay Smith via [SpeekerDeck] (https://speakerdeck.com/smithclay/server-side-swift-with-docker-and-kubernetes)*
 
 Come si può apprezzare da una delle slide che [presentazione](https://speakerdeck.com/smithclay/server-side-swift-with-docker-and-kubernetes) Clay Smith, Ingegnere Software, ha presentato allo Swift Mission Meetup del 2016, il server Swift Vapor è nettamente più performante della controparte in nodejs.
 
@@ -117,7 +117,7 @@ Esistono attualmente decine di framework server-side Swift più o meno seguiti e
 #Perfect
 <center><img src="https://realm.io/assets/img/news/perfect-swift-server-framework1.png" width="800" /></center>
 
-**PERFECT** è stato il primo a posizionarsi sulla scena dei framework swift lato server. E' stato progettato da Kyle Jessup il creatore del linguaggio di programmazione [Lasso](https://en.wikipedia.org/wiki/Lasso_(programming_language)) e si può dire che è stato costruito da qualcuno con una profonda conoscenza del backend web. Il Team di Perfect ha raccolto 1,2M$ in finanziamenti con l'intento di far crescere e migliorare sempre di più il framework
+**PERFECT** è stato il primo a posizionarsi sulla scena dei framework Swift lato server. E' stato progettato da Kyle Jessup il creatore del linguaggio di programmazione [Lasso](https://en.wikipedia.org/wiki/Lasso_(programming_language)) e si può dire che è stato costruito da qualcuno con una profonda conoscenza del backend web. Il Team di Perfect ha raccolto 1,2M$ in finanziamenti con l'intento di far crescere e migliorare sempre di più il framework.
 
 
 #Vapor
@@ -175,7 +175,7 @@ Per prima cosa iniziamo con l'installare alcune delle dipendenze che poi servira
 
 
 Per utilizzare Vapor avremo poi bisogno inizialmente di installare Swift 3 (circa 100MB).
-In questa prima fase in cui swift 3 si trova ancora in fase beta sarà utile installare nella macchina un tool che consente agevolmente di passare da una versione swift-SNAPSHOT all'altra. Si tratta di **Swift Version Manager**.
+In questa prima fase in cui Swift 3 si trova ancora in fase beta sarà utile installare nella macchina un tool che consente agevolmente di passare da una versione swift-SNAPSHOT all'altra. Si tratta di **Swift Version Manager**.
 
 
 		git clone https://github.com/kylef/swiftenv.git ~/.swiftenv
@@ -196,7 +196,7 @@ Poi se utilizziamo bash diamo:
 
 *Per altre Shell consultare il [repository del progetto](https://github.com/kylef/swiftenv)
 
-A questo punto abbiamo sulla nostra macchina un utile tool per gestire le varie versioni di swift in maniera semplice e veloce.
+A questo punto abbiamo sulla nostra macchina un utile tool per gestire le varie versioni di Swift in maniera semplice e veloce.
 Al momento della stesura di questo articolo la documentazione ufficiale per vapor 0.15 non è ancora disponibile sul sito ufficiale. La versione di swift supportata dalla 0.15 è la DEVELOPMENT-SNAPSHOT-2016-07-25-a come si evince dal [repository di github](https://github.com/vapor/vapor) del progetto
 
 Quindi scrivere in console:
@@ -232,11 +232,11 @@ Sarà possibile aggiornare il tool vapor a successive versioni scrivendo semplic
 	
 #Development su Mac
 
-Lo sviluppo su Mac ovviamente è molto più agevole e grazie a xcode avremo un IDE già perfettamente configurato con completamento automatico, evidenziazzione della sintassi e debug. Una volta compilato il progetto potremmo poi deployare su macchine Linux.
+Lo sviluppo su Mac ovviamente è molto più agevole e grazie a Xcode avremo un IDE già perfettamente configurato con completamento automatico, evidenziazzione della sintassi e debug. Una volta compilato il progetto potremmo poi deployare su macchine Linux.
 
-Ovviamente abbiamo bisogno di xcode 8+ installato sul sistema.
+Ovviamente abbiamo bisogno di Xcode 8+ installato sul sistema.
 
-Selezioniamo xcode 8 nella command line
+Selezioniamo Xcode 8 nella command line
 
 		sudo xcode-select -s /Applications/Xcode-beta.app/
 		
