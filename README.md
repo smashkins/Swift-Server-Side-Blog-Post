@@ -51,7 +51,7 @@ Sin dall'inizio Swift è stato progettato per essere "rapido" e veloce. Sfruttan
 <center><img src="https://devimages.apple.com.edgekey.net/swift/blog/images/NewtonsCradle.png" width="500" /></center> 
 ######*Photo credit: Apple via [Swift Blog](https://developer.apple.com/swift/blog/?id=35)*
 
-Una delle novità assolute di questo linguaggio è la presenza di uno strumento chiamato Playground che permette agli sviluppatori di vedere istantaneamente il risultato del codice senza passare dal ciclo classico di compilazione. Infatti il codice scritto con Playground è tradotto in linguaggio macchina al volo e ciò permette un certo grado di interattività tra quello che si scrive e ciò che il codice effetivamente produce durante l'esecuzione. I Playgrounds possono essere creati sia all'interno di un progetto esistente sia come documenti Standalone,  permettendone quindi l'utilizzo sia in ambito professionale, sia per il testing del codice al volo ma anche per finalità didattiche.
+Una delle novità assolute di questo linguaggio è la presenza di uno strumento chiamato Playground che permette agli sviluppatori di vedere istantaneamente il risultato del codice senza passare dal ciclo classico di compilazione. Infatti il codice scritto con Playground è tradotto in linguaggio macchina al volo e ciò permette un certo grado di interattività tra quello che si scrive e ciò che il codice effetivamente produce durante l'esecuzione. I Playgrounds possono essere creati sia all'interno di un progetto esistente sia come documenti standalone,  permettendone quindi l'utilizzo sia in ambito professionale, sia per il testing del codice al volo ma anche per finalità didattiche.
 Le sue caratteristiche infatti, alcune delle quali elencate precedentemente come il less code o l'avvicinamento al linguaggio naturale lo rendono, meglio di altri linguaggi, ideale strumento di apprendimento alla programmazione. Nell'ultimo WWDC16 Apple ha presentato un nuovo formato di Playgrounds tramite il quale gli sviluppatori possono creare dei books educativi su particolari argomenti di programmazione in Swift utilizzando un pattern di programming learning interattivo attraverso il quale l'utente, utilizzando un iPad, può leggere le lezioni, fare degli esercizi inline e contemporaneamente testarne il codice scritto in maniera immediata...  ma questo potrebbe essere l'argomento di un altro articolo.
   
 ##Open Source
@@ -67,7 +67,7 @@ Centinaia di contributi, come spiega Chris Lattner Senior Director del Developer
 #Nuovi Percorsi
 Dal momento in cui Swift è stato rilasciato open source e cross-platform, molti team si sono sbizzarriti per rendere Swift non solo un linguaggio di programmazione orientato allo sviluppo in ambiente Apple ma anche un vero e proprio linguaggio Full Stack da utilizzare anche in altri ambiti non legati direttamente ad ambiente Apple. 
 
-Esempi sempre più numerosi si stanno affacciando nel panorama in ambito web. Stanno infatti nascendo diversi framework che permettono di sviluppare interi server web e framework per il backend. Less code, sicurezza, velocità d'esecuzione stanno permettedno a Swift di imporsi anche in ambiti in qualche modo legati al processo di sviluppo delle apps, e l'interessamento di grandi Big del settore in questa evoluzione, come IBM, ne conferma la serietà delle intenzioni. Quello di cui parleremo sono tecnologie nuove, ancora poco affrontate e in via di sviluppo ma molto promettenti per il futuro. Ma la prima domanda che forse già vi state facendo da un pezzo  è:
+Esempi sempre più numerosi si stanno affacciando nel panorama in ambito web. Stanno infatti nascendo diversi framework che permettono di sviluppare interi server web e framework per il backend. Less code, sicurezza, velocità d'esecuzione stanno permettendo a Swift di imporsi anche in ambiti in qualche modo correlati al processo di sviluppo delle apps come la parte backend, e l'interessamento di grandi Big del settore in questa evoluzione, come IBM, ne conferma la serietà delle intenzioni. Quello di cui parleremo sono tecnologie nuove, ancora poco affrontate e in via di sviluppo ma molto promettenti per il futuro. Ma la prima domanda che forse già vi state facendo da un pezzo  è:
 #Perchè utilizzare Swift lato server ?
 
 <center><img src="https://cdn.meme.am/instances/53434671.jpg" width="400" /></center>
@@ -82,7 +82,7 @@ Se comparato ad altri linguaggi, Swift è stato progettato sin dall'inizio per e
 <img src="http://www.apple-wd.com/wp-content/uploads/2015/05/wwdc_2014_swift-e1401886574224.png" width="300" />
 
 Alcuni linguaggi di programmazione infatti sono ideali per la produttività degli sviluppatori ma girano lentamente. Altri sono veloci ma per lo sviluppatore risultano difficili da scrivere velocemente.
-Swift racchiude in se entrambe le caratteristiche, veloce da scrivere e veloce in fase di run. Produttività e Performance. Sono soltanto belle parole di una azienda esaltata o di qualche dev fanatico? Ovviamente no, oltre a tutto quello detto in precedenza, ci sono dati alla mano che lo testimoniano e allora parliamo di:
+Swift racchiude in se entrambe le caratteristiche, veloce da scrivere e veloce in fase di run. Produttività e Performance. Sono soltanto belle parole di una azienda esaltata o di qualche dev fanatico? Ovviamente no, oltre a tutto quello detto in precedenza, ci sono dati alla mano che lo testimoniano e allora parliamo di prestazioni.
 
 ##Prestazioni
 Dopo il rilascio delle istruzioni per sistemi Linux, alcuni si sono spinti nei test benchmark più disparati.
@@ -92,7 +92,7 @@ Uno dei più semplici benchmark fa uso dell'Apache HTTP server benchmarking tool
 
 ######*Photo Credit: Clay Smith via [SpeekerDeck] (https://speakerdeck.com/smithclay/server-side-swift-with-docker-and-kubernetes)*
 
-Come si può apprezzare da [una delle slide](https://speakerdeck.com/smithclay/server-side-swift-with-docker-and-kubernetes) che Clay Smith, Ingegnere Software, ha presentato allo Swift Mission Meetup del 2016, un server Swift è nettamente più performante della controparte in nodejs per quanto riguarda il numero di richieste concorrenti.
+Come si può apprezzare da [una delle slide](https://speakerdeck.com/smithclay/server-side-swift-with-docker-and-kubernetes) che Clay Smith, Software Engineer, ha presentato allo Swift Mission Meetup del 2016, un server Swift è nettamente più performante della controparte in nodejs per quanto riguarda il numero di richieste concorrenti.
 
 
 In comparazioni tra Go, NodeJS e Rust, Swift risulta molto spesso più performante dei rivali:
@@ -138,7 +138,7 @@ Il terzo in questa lista è [**KITURA**](http://www.ibm.com/cloud-computing/blue
 
 IBM sta investendo molte risorse nel rendere Swift il prossimo linguaggio enterprise dopo Java e Kitura è parte di questo sforzo. È stato presentato [nell'ultimo WWDC16](https://developer.apple.com/videos/play/wwdc2016/415/) ed alcuni sviluppatori del team di **KITURA** provengono dal team che mantiene Express.js per cui se si ha familiarità con Express, KITURA risulterà abbastanza familiare.
 
-IBM ha costruito un intero ecosistema attorno al suo framework agganciando alcuni dei suoi servizi cloud enterprise preesistenti (come Watson o BlueMix) a questo framework. Di default i tool di installazione di Kitura andranno deployare sul cloud di IBM ma è possibile l'installazione anche su macchine Ubuntu server, macOS, Docker e Vagrant
+IBM ha costruito un intero ecosistema attorno al suo framework agganciando alcuni dei suoi servizi cloud enterprise preesistenti (come Watson o BlueMix) a questo framework. Di default i tool di installazione di Kitura consentono di distribuire e pubblicare sul cloud di IBM ma è possibile l'installazione anche su macchine Ubuntu server, macOS, Docker e Vagrant
 
 
 #Zewo
@@ -149,7 +149,7 @@ L'ultimo framework della lista di cui voglio parlare è [**ZEWO**]("http://www.z
 
 Ciò che è interessante di *ZEWO* è la sua architettura. E' un framework con una natura modulare ed attualmente è composto da più di 50 packages! 
 
-La seconda cosa interessante è che i moduli di base sono attualmente intercambiabili con Vapor. Infatti Vapor e Zewo stanno collaborando insieme per portare avanti un progetto parallelo chiamato [**OPEN SWIFT**](https://github.com/open-swift) con l'intento di standardizzare le interfacce che possono essere utilizzate da chiunque voglia usare swift server-side per mettere su i componenti server: middleware, request, response ed altri oggetti. Con *Open Swift* chiunque può costruire middleware o altri plugins per gli Swift servers ed usarli sia in Vapor che in Zewo o con chi in futuro voglia adottare il progetto *Open Swift* 
+La seconda cosa interessante è che i moduli di base sono attualmente intercambiabili con Vapor. Infatti Vapor e Zewo stanno collaborando insieme per portare avanti un progetto parallelo chiamato [**OPEN SWIFT**](https://github.com/open-swift) con l'intento di standardizzare le interfacce che possono essere utilizzate da chiunque voglia usare swift server-side per mettere su i componenti server: middleware, request, response ed altri oggetti. Con *Open Swift* chiunque può costruire middleware o altri plugins per gli Swift servers ed usarli sia in Vapor che in Zewo o con chi in futuro voglia adottare il progetto *Open Swift*. 
 
 
 Il codice di Zewo è molto simile a Vapor o Kitura ma risulta un pò più verbose a causa della sua intenzionale modularità.
