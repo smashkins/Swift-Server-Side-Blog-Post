@@ -28,9 +28,9 @@ Ma quali caratteristiche darwiniane ha portato con se *Swift* e che secondo le u
 ######*Photo credit: via [quotesgram](http://www.walthampton.com/wp-content/uploads/2014/05/why_less_is_more.png)*
 
 
-Il codice con swift diventa più conciso e con una sintassi più naturale per l'uomo che lo rende più facile da leggere e da manutenere. L'inferred type del compilatore rende il codice scritto dallo sviluppatore più pulito e meno soggetto agli errori. Less code significa anche eliminazione del semanticamente insignificante ; (punto e virgola) che per anni ha caratterizzato la natura dei codici compilati.
+Il codice con swift diventa più conciso e con una sintassi più naturale per l'uomo che lo rende più facile da leggere e da manutenere. L'inferred type del compilatore rende il codice scritto dallo sviluppatore più pulito e meno soggetto agli errori. La punta d'iceberg del Less code di Swift esce fuori con l'eliminazione del semanticamente insignificante ";" (punto e virgola) che per anni ha caratterizzato la natura dei codici compilati.
 
-Tutto ciò e molto altro, senza scendere troppo nel particolare (si potrebbero citare i Generics, le tuple etc), rende Swift un linguaggio facile e divertente da usare per lo sviluppatore che può, a seconda delle esigenze, utilizzare paradigmi classici di programmazione come l'imperative programming o quelli un pò più "esotici" come il functional programming.
+Tutto ciò e molto altro, senza scendere troppo nel particolare (si potrebbero citare le *Tuples* e il ritorno multiplo di valori, o i Generics già visti in C#), rende Swift un linguaggio facile e divertente da usare per lo sviluppatore che può, a seconda delle esigenze, utilizzare paradigmi classici di programmazione come l'imperative programming o quelli un pò più "esotici" come il functional programming.
 
 ##Progettato per la sicurezza
 <center><img src="https://cdn.meme.am/instances/29472476.jpg" width="300" /></center> 
@@ -44,15 +44,15 @@ Swift elimina intere classi di codice non sicuro. Le variabili devono essere sem
 <center><img src="http://i.imgur.com/w8VNE8x.jpg" width="300"/></center>
 ######*Photo credit: notdrawntoscale via [imgur](http://imgur.com/gallery/w8VNE8x)*
 
-Sin dall'inizio Swift è stato progettato per essere "rapido" e veloce. Sfruttando il framework di compilazione LLVM di Apple ad alte prestazioni (che estende quello opensource rilasciato dall'università dell'Illinois nel 2000), il codice Swift è trasformato in linguaggio macchina  ottimizzato per gli hardware più moderni
+Sin dall'inizio Swift è stato progettato per essere "rapido" e veloce. Sfruttando il framework di compilazione LLVM di Apple ad alte prestazioni (che estende quello opensource rilasciato dall'università dell'Illinois nel 2000), il codice Swift è trasformato in linguaggio macchina  ottimizzato per gli hardware più moderni.
 
 ##Playground
 
 <center><img src="https://devimages.apple.com.edgekey.net/swift/blog/images/NewtonsCradle.png" width="500" /></center> 
 ######*Photo credit: Apple via [Swift Blog](https://developer.apple.com/swift/blog/?id=35)*
 
-Una delle novità assolute di questo linguaggio è la presenza di uno strumento chiamato Playground che permette agli sviluppatori di vedere istantaneamente il risultato del codice senza passare dal ciclo classico di compilazione. Infatti il codice scritto con Playground è tradotto in linguaggio macchina al volo e ciò permette un certo grado di interattività tra quello che si scrive e ciò che il codice effetivamente produce durante l'esecuzione. I Playgrounds possono essere creati sia all'interno di un progetto esistente sia come documenti Standalone,  permettendone quindi l'utilizzo sia in ambito professionale, sia per il testing del codice al volo e anche per motivi didattici.
-Le sue caratteristiche infatti, alcune delle quali elencate precedentemente come il less code o l'avvicinamento al linguaggio naturale lo rendono, meglio di altri linguaggi, ideale strumento di apprendimento alla programmazione.
+Una delle novità assolute di questo linguaggio è la presenza di uno strumento chiamato Playground che permette agli sviluppatori di vedere istantaneamente il risultato del codice senza passare dal ciclo classico di compilazione. Infatti il codice scritto con Playground è tradotto in linguaggio macchina al volo e ciò permette un certo grado di interattività tra quello che si scrive e ciò che il codice effetivamente produce durante l'esecuzione. I Playgrounds possono essere creati sia all'interno di un progetto esistente sia come documenti Standalone,  permettendone quindi l'utilizzo sia in ambito professionale, sia per il testing del codice al volo ma anche per finalità didattiche.
+Le sue caratteristiche infatti, alcune delle quali elencate precedentemente come il less code o l'avvicinamento al linguaggio naturale lo rendono, meglio di altri linguaggi, ideale strumento di apprendimento alla programmazione. Nell'ultimo WWDC16 Apple ha presentato un nuovo formato di Playgrounds tramite il quale gli sviluppatori possono creare dei books educativi su particolari argomenti di programmazione in Swift utilizzando un pattern di programming learning interattivo attraverso il quale l'utente, utilizzando un iPad, può leggere le lezioni, fare degli esercizi inline e contemporaneamente testarne il codice scritto in maniera immediata...  ma questo potrebbe essere l'argomento di un altro articolo.
   
 ##Open Source
 Annunciandolo un anno dopo la sua presentazione, durante il WWDC 2015 Apple rilascia il suo nuovo linguaggio come Open Source, dando così da un lato la possibilità alla comunità di sviluppatori di tutto il mondo di confrontarsi e partecipare alla sua crescita creando un sistema di contributing fatto di pull request, mailing list, reporting bugs e partecipazione diretta nel processo di evoluzione, dall'altro consentendo al linguaggio di essere utilizzato nei più disparati ambiti di applicazione anche quelli che non sono direttamente controllati da Apple. 
@@ -74,7 +74,7 @@ Esempi sempre più numerosi si stanno affacciando nel panorama in ambito web. St
 ######*Photo credit: via [meme generator](http://es.memegenerator.net/instance/53434671)*
 
 Esistono già linguaggi creati specificamente per far questo. Pensiamo a Ruby, Go, Php etc.. abbiamo anche già a disposizione numerosi linguaggi cross-platform, pensiamo a Python, C#, Java. Perchè Swift dovrebbe essere *"migliore"* di questi linguaggi che hanno già una maturità e una base di installazioni ragguardevoli?
-Beh, perchè semplicemente qui non si vuole sottolineare un discorso di un *"linguaggio migliore"* rispetto a qualche altro. Come sappiamo non esiste un linguaggio migliore in assoluto. Ogni linguaggio ha le sue specificità, ed è stato progettato per un certo compito. Una delle utilità rispetto agli altri linguaggi è per lo sviluppatore iOS che va via via trasformandosi da uno sviluppatore mobile ad uno sviluppatore full-stack mono linguaggio. Chi sviluppava applicazioni iOS non dovrà più switchare da un linguaggio all'altro. D'altro campo questa espansione di swift è utile anche per gli sviluppatori web che adesso hanno la possibilità di imparare ed utilizzare un linguaggio che va trasformandosi in un linguaggio full-stack. Qui si vuole sottolineare il fatto che un linguaggio come Swift, nato con un certo scopo, grazie a certe sue caratteristiche peculiari, sta pian piano uscendo dal suo guscio per cui è stato creato e si sta attestando in ottime posizioni in certi campi di applicazione. Per quale motivo?
+Beh, perchè semplicemente con questo articolo non si vuole sottolineare questo aspetto.Ma farne un discorso di utilità. Una delle utilità rispetto agli altri linguaggi è sicuramente per lo sviluppatore iOS, che va via via trasformandosi da uno sviluppatore esclusivamente mobile ad uno sviluppatore full-stack mono linguaggio e l'utilizzo da parte di un dev di uno o pochi linguaggi, a mio parere, significa anche alta specializzazione che si traduce in aumento di produttività. Un'altro aspetto sottile della questione è che colui il quale sviluppava applicazioni iOS non dovrà più switchare da un linguaggio all'altro per completare il workflow lato backend. D'altro canto questa espansione di Swift verso altri ambienti potrebbe essere utile anche per gli sviluppatori web che avranno la possibilità di imparare ad utilizzare un linguaggio che oltre ad essere adesso anche un linguaggio backend rimane pur sempre uno dei  principali linguaggi per lo sviluppo di app native mobile e ciò migliora l'interscambio di comunicazione tra devs. Inoltre qui si vuole sottolineare il fatto che un linguaggio come Swift, nato con un certo scopo, grazie a certe sue caratteristiche peculiari, sta pian piano uscendo dal suo guscio per cui è stato creato e si sta attestando in ottime posizioni in certi campi di applicazione. Ma Per quale motivo?
 
 ##Compromesso
 Se comparato ad altri linguaggi, Swift è stato progettato sin dall'inizio per essere un giusto compromesso tra Produttività e Performance.
@@ -82,7 +82,7 @@ Se comparato ad altri linguaggi, Swift è stato progettato sin dall'inizio per e
 <img src="http://www.apple-wd.com/wp-content/uploads/2015/05/wwdc_2014_swift-e1401886574224.png" width="300" />
 
 Alcuni linguaggi di programmazione infatti sono ideali per la produttività degli sviluppatori ma girano lentamente. Altri sono veloci ma per lo sviluppatore risultano difficili da scrivere velocemente.
-Swift racchiude in se entrambe le caratteristiche, veloce da scrivere e veloce in fase di run. Produttività e Performance. Dati alla mano allora parliamo di:
+Swift racchiude in se entrambe le caratteristiche, veloce da scrivere e veloce in fase di run. Produttività e Performance. Sono soltanto belle parole di una azienda esaltata o di qualche dev fanatico? Ovviamente no, oltre a tutto quello detto in precedenza, ci sono dati alla mano che lo testimoniano e allora parliamo di:
 
 ##Prestazioni
 Dopo il rilascio delle istruzioni per sistemi Linux, alcuni si sono spinti nei test benchmark più disparati.
@@ -92,7 +92,7 @@ Uno dei più semplici benchmark fa uso dell'Apache HTTP server benchmarking tool
 
 ######*Photo Credit: Clay Smith via [SpeekerDeck] (https://speakerdeck.com/smithclay/server-side-swift-with-docker-and-kubernetes)*
 
-Come si può apprezzare da una delle slide che [presentazione](https://speakerdeck.com/smithclay/server-side-swift-with-docker-and-kubernetes) Clay Smith, Ingegnere Software, ha presentato allo Swift Mission Meetup del 2016, il server Swift Vapor è nettamente più performante della controparte in nodejs.
+Come si può apprezzare da [una delle slide](https://speakerdeck.com/smithclay/server-side-swift-with-docker-and-kubernetes) che Clay Smith, Ingegnere Software, ha presentato allo Swift Mission Meetup del 2016, un server Swift è nettamente più performante della controparte in nodejs per quanto riguarda il numero di richieste concorrenti.
 
 
 In comparazioni tra Go, NodeJS e Rust, Swift risulta molto spesso più performante dei rivali:
@@ -101,14 +101,14 @@ In comparazioni tra Go, NodeJS e Rust, Swift risulta molto spesso più performan
 ![](https://grigio.org/content/images/2015/12/1f.jpg) 
 ######Photo credit: via [grigio.org](https://grigio.org/go-vs-node-vs-rust-vs-swift/)
 
-[In un altra comparazione](https://medium.com/@qutheory/server-side-swift-vs-the-other-guys-2-speed-ca65b2f79505#.at98s2bjs) che esamina una delle più comuni attività di un framework web ossia l'SQLite Fetch (ma nel link si trovano altri semplici test usuali per un server web), Swift ( o meglio il framework web Swift Vapor in questo caso) è comparato ad altri linguaggi sia interpretati che compilati (tutti insieme appassionatamente 👨‍👩‍👧‍👧). Dai grafici che ne vengono fuori da queste analisi è possibile apprezzarne di nuovo le prestazioni: come si evince dai tets, Swift risulta essere ben 10 volte più veloce degli altri framework testati e ha tutte le possibilità per detronare i suoi più prossimi rivali, come Go e nodejs, in quanto il compilatore in ambiente Linux (dove sono stati eseguiti questi test) non è ancora completamente ottimizzato per questo ambiente.
+[In un altra comparazione](https://medium.com/@qutheory/server-side-swift-vs-the-other-guys-2-speed-ca65b2f79505#.at98s2bjs) che esamina una delle più comuni attività di un framework web ossia l'SQLite Fetch (ma nel link si trovano altri semplici test usuali per un server web), Swift ( o meglio il framework web Swift Vapor in questo caso) è comparato ad altri linguaggi sia interpretati che compilati (tutti insieme appassionatamente 👨‍👩‍👧‍👧). Dai grafici che ne vengono fuori da queste analisi è possibile apprezzarne di nuovo le prestazioni: come si evince dai test, Swift risulta essere ben 10 volte più veloce degli altri framework testati e ha tutte le possibilità per detronare i suoi più prossimi rivali, come Go e nodejs, in quanto Swift su  Linux (dove sono stati eseguiti questi test) è ancora in beta (essendo stato rilasciato da poco) e il compilatore compila toolchains non ancora ottimizzati come invece avviene sui Mac Servers.
 
 <img src="https://cdn-images-1.medium.com/max/1200/1*k8LAC40wvBx6pOhkH71p4A.png" width="600" />
 ######Photo credit: via [qutheory](https://medium.com/@qutheory/server-side-swift-vs-the-other-guys-2-speed-ca65b2f79505#.at98s2bjs)
 
 ##Un unico linguaggio per incatenarli tutti
 
-NodeJs è salito in popolarità perchè consente ai "full-stack developers" di lavorare sia sul frontend che sul backend delle loro web apps. Ciò consente ai team di [iterare](http://searchsoftwarequality.techtarget.com/definition/iteration) più velocemente e questo spesso porta a prodotti di maggior successo. Swift, allo stesso modo di nodejs, grazie alle caratteristiche viste precedentemente diminuisce il tempo di iterazione per i team che lavorano sullo sviluppo mobile.
+NodeJs è salito in popolarità perchè consente ai "full-stack developers" di lavorare sia sul frontend che sul backend delle loro web apps. Ciò consente ai team di iterare ([nel senso agile del termine](https://it.wikipedia.org/wiki/Metodologia_agile)) più velocemente e questo spesso, come suggerisce la letteratura, porta a prodotti di maggior successo. Swift, allo stesso modo di nodejs, grazie alle caratteristiche viste precedentemente diminuisce il tempo di iterazione per i team che lavorano sullo sviluppo mobile.
 Un'altra importante considerazione è che utilizzandolo sia su server che su mobile è possibile sfruttare gli stessi modelli per la parte di networking, senza necessariamente doverli riscrivere da linguaggio a linguaggio.
 
 #I Principali Framework Web Swift attuali
