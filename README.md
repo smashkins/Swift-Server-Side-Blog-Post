@@ -1,20 +1,20 @@
 #<center>Swift Server Side</center>
 
-Partiamo un attimo dall'inizio...
+Partiamo dall'inizio...
 
 <center><img src="https://i.ytimg.com/vi/MO7Ta0DvEWA/hqdefault.jpg" /></center>
 
 ##2014
- Apple presenta durante la conferenza mondiale degli sviluppatori [wwdc2014](https://developer.apple.com/videos/play/wwdc2014/402/) un nuovo linguaggio di programmazione destinato a sostituire completamente con gli anni il precedente linguaggio (Objective C) utilizzato fino a quel momento per lo sviluppo di programmi all'interno del suo ecosistema (MacOS, iOS, TvOS, watchOS). Il nome scelto per il nuovo linguaggio è **SWIFT** (dall'inglese "rondine", "rapido").
+ Apple presenta durante la conferenza mondiale degli sviluppatori [wwdc2014](https://developer.apple.com/videos/play/wwdc2014/402/) un nuovo linguaggio di programmazione destinato a sostituire completamente con gli anni il linguaggio utilizzato fino a quel momento (Objective C) per lo sviluppo di programmi all'interno del suo ecosistema (MacOS, iOS, TvOS, watchOS). Il nome scelto per il nuovo linguaggio è **SWIFT** (dall'inglese "rondine", "rapido").
 
 Per consentirne l'adozione rapida, *swift* viene sin da subito concepito per essere utilizzato a fianco dei vecchi progetti scritti in  Objective C permettendo la coesistenza in uno stesso progetto sia di Objective C che di *Swift*. Ma questo non è l'unico vantaggio per cui Apple consiglia sin da subito l'uso di questo linguaggio.
 
 ![](https://onionesquereality.files.wordpress.com/2014/01/40s1.jpg) 
 ######*Photo credit: Shubhendu Trivedi via [Onionesque Reality] (https://onionesquereality.wordpress.com/2014/01/29/the-evolution-of-programming-languages/)*
 
-Swift può ben definirsi il *risultato di una attenta selezione darwiniana* (in cui l'uomo recita la parte della natura) che è avvenuta negli anni nel campo informatico dei linguaggi di programmazione ...
+Swift può ben definirsi il *risultato di una attenta selezione darwiniana* (in cui l'uomo recita la parte della natura) che è avvenuta negli anni nel campo informatico dei linguaggi di programmazione.
 
-Da questo confuso e complicato ambiente, fatto da oceani di righe di codice, vulcanici compilatori, tentativi più o meno riusciti con cui l'uomo ha sin dall'inizio tentato di generare nuove grammatiche che gli consentissero di ottimizzare le sue comunicazioni con le macchine, la selezione darwiniana informatica negli anni ha elevato a soluzioni migliori quelle che attualmente caratterizzano i più recenti e moderni linguaggi di programmazione e *Swift* non è stato da meno entrando in maniera *"rapida"* e dirompente in questo club smart prendendo il meglio delle idee da "Rust", "Haskell", "Ruby, Python, C#, CLU [[2](http://nondot.org/sabre/)]
+Da questo confuso e complicato ambiente, fatto da oceani di righe di codice, vulcanici compilatori e tentativi più o meno riusciti di generare nuove grammatiche di comunicazione con le macchine, la selezione darwiniana informatica ha elevato negli anni a soluzioni migliori quelle che attualmente caratterizzano i più recenti e moderni linguaggi di programmazione. *Swift* non è stato da meno entrando in maniera *"rapida"* e dirompente in questo club smart prendendo il meglio delle idee da "Rust", "Haskell", "Ruby, Python, C#, CLU [[2](http://nondot.org/sabre/)]
 
 <img src="stack.png" />
 
